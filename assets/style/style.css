@@ -1,0 +1,182 @@
+@import "./fonts.css";
+
+:root {
+    --dark-color: #737373;
+    --disabled-color: #737373;
+    --primary-color: #00A0C1;
+    --warn-color: #FFA62B;
+}
+
+/* BASE CONFIG */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat",
+        Arial,
+        Helvetica,
+        sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button {
+    background: none;
+    border: none;
+}
+
+ul {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* BASE CONFIG */
+
+
+.container {
+    max-width: 1070px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.section__btn {
+    padding: 10px 35px;
+    border-radius: 37px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #00A0C1;
+}
+
+/* HEADER */
+.header {
+    position: absolute;
+    top: 36px;
+    width: 100%;
+
+}
+
+.header__logo {
+    display: inline-block;
+    color: var(--dark-color);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    margin-right: 117px;
+}
+
+.header__link {
+    color: var(--disabled-color);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+}
+
+.header__link:not(:last-child) {
+    margin-right: 21px;
+}
+
+/* HEADER */
+
+
+
+/* HERO */
+.hero {
+    height: 100vh;
+    background: url(../images/Hero.jpg) #fff no-repeat center/cover;
+    padding-top: 184px;
+}
+
+.hero__title {
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+
+.hero__desc {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.hero .hero__btn_filled{
+    margin: ;
+}
+.hero__btn_filled{
+    background: var(--warn-color);
+
+}
+.hero__btn_hollow{
+
+    
+}
+.features{
+    padding: 211px 0 80px;
+}
+
+
+
+
+
+
+
+
+/* 
+@media (max-width: 1200px) {
+    .container {
+        max-width: 970px;
+    }
+}
+
+
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 750px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: none;
+    }
+}
+
+.row {
+    display: flex;
+}
+
+.col-4 {
+    width: 33.33333%; */
+}
